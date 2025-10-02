@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feta Clovis - Resume</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    /* Base Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 0.2em;
+}
+
+h2 {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 1em;
+}
+
+h3 {
+  margin-top: 1em;
+  color:navy;
+}
+
+/* Flexbox Layout */
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+  flex: 0 0 25%;
+  background-color:gray;
+  color:black;
+  padding: 20px;
+}
+
+.sidebar h1, 
+.sidebar h2, 
+.sidebar h3 {
+  color: #fff;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 0.5em;
+}
+
+/* Main Content */
+.main-content {
+  flex: 1;
+  padding: 20px;
+  background:plum;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  .sidebar {
+    flex: 1;
+    text-align: center;
+  }
+}
+
+</style>
+<body>
+  <div class="container">
+    
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h1>FETA CLOVIS</h1>
+      <h2>REGISTERED STUDENT</h2>
+      <img src="ug.jpg" width="200px" height="350px">
+      <section class="contact">
+        <h3>Contact</h3>
+        <p>Odropi cell<br>Yumbe Town Council, Yumbe District</p>
+        <p> 0776899211</p>
+        <p>clovisfeta28@gmail.com</p>
+        <p>ww.fetaclovis.com</p>
+      </section>
+
+      <section class="skills">
+        <h3>Skills</h3>
+        <ul>
+          <li><strong>Communication</strong>
+          </li>
+          Clearly explained complex information to non-technical audiences. <br>
+
+Experienced in customer-facing roles requiring persuasive and empathetic communication.
+          <li><strong>Leadership</strong></li>
+          Decision-making and problem-solving. <br>
+          Collaboration and relationship building.
+        </ul>
+      </section>
+    </aside>
+    
+    <!-- Main Content -->
+    <main class="main-content">
+      <section>
+        <h3>Education</h3>
+        <p><strong>Muni University |Arua</strong><br>
+        Bachelors of Information Technology</p>
+        <p>Relevant courseunits:Web Application Development, Computer Repair</p>
+      </section>
+
+      <section>
+        <h3>Experience</h3>
+        <p><strong>Student | Bsc of IT | Muni University</strong><br>
+        August 2025 – October 2025</p>
+        
+        <p><strong>IT Assistant | Customer Service | Global Computer Center </strong><br>
+        January 2025 – Julyu 2025</p>
+        
+        <p><strong>Student | "A" level | Nyarilo SS</strong><br>
+        Febuary 2023 – December 2024</p>
+      </section>
+
+      <section>
+        <h3>References</h3>
+        <p>Solomon Clovis,0771234567</p>
+        <p>Onduaci Gerald,0777654321</p>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
